@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #FF1744;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+.active{
+  background-color: blueviolet;
+}
+
+h1{
+  background-color:rgb(17, 92, 190);
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+  margin: 5px auto 0px auto;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+h3{
+  display: inline-block;
+  vertical-align: top;
+  margin:-30px auto 500px auto;
+  text-decoration: none;
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+/*Contenedor Principal*/
+main{
+  width: 700px;
+  height: 250px;
+  border: solid;
+  border-color: black;
+  margin: 15px auto;
+  background-color:white;
+}
+
+/*Fondo de las banderas*/
+main>nav{
+  display: inline-block;
+  width: 333px;
+  height: 225px;
+  margin:7px 2px 0px 5px  ;
+  background-color:white;
+  border: solid;
+  border-color: black;
+  vertical-align: top; 
+
+}
+
+/*Contenedor de banderas*/
+main>nav>article{
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 30px auto;
+  background-color:white;
+  border: solid;
+  border-color: black;
+}
+
+/*Bandera de Costa Rica*/
+main>nav>article>article{
+  display: inline-block;
+  width: 250px;
+  height: 21px;
+  margin:auto;
+  background-color:blue;
+}
+main>nav>article>nav{
+  display: inline-block;
+  width: 250px;
+  height: 21px;
+  margin:auto;
+  background-color:white;
+}
+main>nav>article>footer{
+  display: inline-block;
+  width: 250px;
+  height: 54px;
+  margin:auto;
+  background-color:red;
+}
+main>nav>article>footer>nav{
+  display: inline-block;
+  width: 45px;
+  height: 50px;
+  border-radius: 50%;
+  margin:2px 130px auto 5px;
+  background-color:white;
+}
+main>nav>article>footer>nav>img{
+  height: 46px;
+  width: 40px;
+  margin: 3px 0px 0px 1px;
+}
+
+
+/*Bandera de colombia*/
+main>nav>article>div{
+  display: inline-block;
+  width: 250px;
+  height: 64px;
+  margin:auto;
+  background-color:yellow;
+}
+main>nav>article>aside{
+  display: inline-block;
+  width: 250px;
+  height: 43px;
+  margin:auto;
+  background-color:blue;
+  margin:-4px auto 0px auto;
+}
+main>nav>article>li{
+  display: inline-block;
+  width: 250px;
+  height: 44px;
+  margin:-4px auto 0px auto;
+  background-color:red;
+}
+
+/*Bandera de Japón*/
+main>nav>article>blanco{
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin:auto;
+  background-color:white;
+}
+main>nav>article>blanco>punto{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin:25px auto 0px auto;
+  background-color:red;
+}
+
+/*Bandera de Rusia*/
+main>nav>article>blanco1{
+  display: inline-block;
+  width: 250px;
+  height: 51px;
+  margin:auto;
+  background-color:white;
+}
+main>nav>article>azul{
+  display: inline-block;
+  width: 250px;
+  height: 51px;
+  margin:auto;
+  background-color:blue;
+}
+
+/*Bandera de Canada*/
+main>nav>article>rojoi{
+  display: inline-block;
+  width: 60px;
+  height:150px;
+  margin:0px 190px 0px 0px;
+  background-color:red;
+}
+main>nav>article>blancom{
+  display: inline-block;
+  width: 130px;
+  height:150px;
+  margin:-230px 60px 18px 60px ;
+  background-color:white;
+}
+main>nav>article>blancom>img{
+  height: 139px;
+  width: 115px;
+  margin: 3px 0px 26px 0px;
+}
+main>nav>article>rojod{
+  display: inline-block;
+  width: 60px;
+  height:150px;
+  margin:-230px 0px 36px 190px;
+  background-color:red;
+}
+
+/*Bandera de Egipto*/
+main>nav>article>rojoa{
+  display: inline-block;
+  width: 250px;
+  height:50px;
+  margin:auto;
+  background-color:red;
+}
+main>nav>article>blancoe{
+  display: inline-block;
+  width: 250px;
+  height:50px;
+  margin:-4px auto 0px auto;
+  background-color:white;
+}
+main>nav>article>blancoe>img{
+  height: 40px;
+  width: 40px;
+  margin: 6px 0px 7px 0px;
+}
+main>nav>article>negro{
+  display: inline-block;
+  width: 250px;
+  height:50px;
+  margin:-4px auto 0px auto;
+  background-color:black;
+}
