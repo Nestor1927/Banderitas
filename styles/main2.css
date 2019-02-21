@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #FF1744;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+.active{
+  background-color: blueviolet;
+}
+
+h1{
+  background-color:rgb(17, 92, 190);
+  text-align: center;
+}
+
+h2{
+  display: inline-block;
+  margin: 5px auto 0px auto;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-size: 22px;
+}
+
+h3{
+  display: inline-block;
+  margin:5px 75px 0px -100px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-size: 22px;
+}
+
+h4{
+  display: inline-block;
+  vertical-align: top;
+  margin: -30px auto 0px auto;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-size: 22px;
+}
+
+h5{
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px 14px 93px -101px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 22px;
+}
+
+/*Contenedor Principal*/
+main{
+  width: 700px;
+  height: 250px;
+  border: solid;
+  border-color: black;
+  margin: 15px auto;
+  background-color:white;
+}
+
+/*Fondo de las banderas*/
+main>nav{
+  display: inline-block;
+  width: 333px;
+  height: 225px;
+  margin:7px 2px 0px 5px  ;
+  background-color:white;
+  border: solid;
+  border-color: black;
+  vertical-align: top; 
+
+}
+
+/*Contenedor de banderas*/
+main>nav>article{
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 30px auto;
+  background-color:white;
+  border: solid;
+  border-color: black;
+}
+
+/*BAndera de Argentina*/
+main>nav>article>aside{
+  display: inline-block;
+  width: 250px;
+  height: 47px;
+  background-color: rgb(0, 183, 255);
+}
+main>nav>article>li{
+  display: inline-block;
+  width: 250px;
+  height: 48px;
+  background-color: white;
+}
+main>nav>article>li>img{
+  width: 48px;
+  height: 48px;
+}
+
+/*Bandera de Corea del Norte*/
+main>nav>article>ul{
+  display: inline-block;
+  width: 250px;
+  height: 20px;
+  margin:auto;
+  background-color:blue;
+}
+main>nav>article>a{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 8px;
+  margin:-4px auto auto auto;
+  background-color:white;
+}
+main>nav>article>footer{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 95px;
+  margin:-13px auto auto auto;
+  background-color:red;
+}
+main>nav>article>nav{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 20px;
+  margin:-12px auto auto auto;
+  background-color:blue;
+}
+main>nav>article>footer>nav{
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin:7px 135px 0px 10px ;
+  background-color:white;
+}
+main>nav>article>footer>nav>img{
+  height: 69px;
+  width: 69px;
+  margin: auto;
+}
+
+/*Bandera de España*/
+main>nav>article>es{
+  display: inline-block;
+  width: 250px;
+  height: 35px;
+  background-color: red;
+}
+main>nav>article>pa{
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  height: 84px;
+  margin: -4px auto;
+  background-color: rgb(243, 200, 7);
+}
+main>nav>article>pa>img{
+  width: 58px;
+  height: 58px;
+  margin: 12px 130px 20px 10px;
+}
+
+/*Bandera de Finlandia*/
+main>nav>article>fi{
+  display: inline-block;
+  width: 50px;
+  height: 150px;
+  margin:auto 44px auto 40px;
+  background-color:blue;
+}
+main>nav>article>fi>nl{
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  margin: 52px auto 80px -64px;
+  background-color:blue;
+}
+
+/*Bandera de México*/
+main>nav>article>me{
+  display: inline-block;
+  width: 83px;
+  height:150px;
+  margin:0px 190px 0px 0px;
+  background-color:green;
+}
+main>nav>article>xi{
+  display: inline-block;
+  width: 83px;
+  height:150px;
+  margin:-230px 60px 18px 60px ;
+  background-color:white;
+}
+main>nav>article>xi>img{
+  height: 69px;
+  width: 57px;
+  margin: 42px 0px 57px 0px;
+}
+main>nav>article>co{
+  display: inline-block;
+  width: 83px;
+  height:150px;
+  margin:-230px 0px 36px 167px;
+  background-color:red;
+}
+
+/*Bandera de Panamá*/
+main>nav>article>pan{
+  display: inline-block;
+  width: 125px;
+  height:75px;
+  margin:0px 190px 0px 0px;
+  background-color:white;
+}
+main>nav>article>pan>img{
+  width: 50px;
+  height: 50px;
+  margin:11px auto 0px auto;
+}
+main>nav>article>na{
+  display: inline-block;
+  vertical-align: top;
+  width: 125px;
+  height:75px;
+  margin:-75px 0px auto 125px;
+  background-color:red;
+}
+main>nav>article>maa{
+  display: inline-block;
+  width: 125px;
+  height:75px;
+  margin:-18px 190px 0px 0px;
+  background-color:blue;
+}
+main>nav>article>mee{
+  display: inline-block;
+  vertical-align: top;
+  width: 125px;
+  height:75px;
+  margin:-79px -65px 18px 60px ;
+  background-color:white;
+}
+main>nav>article>mee>img{
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin:11px auto 0px auto;
+}
